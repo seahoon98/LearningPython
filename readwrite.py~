@@ -1,0 +1,4 @@
+import converters
+
+prog = converters.Uppercase(open('spam.txt'), open('spam.txt', 'w'))
+prog.process()
